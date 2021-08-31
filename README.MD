@@ -95,9 +95,9 @@ You see, everything are on root folder, let's move app, web, common inside packa
 ```properties
 > mkdir packages
 
-> mv app/ packages/app/
-> mv web/ packages/app/
-> mv common/ packages/app/
+> mv app/ packages
+> mv web/ packages
+> mv common/ packages
 ```
 
 ## You can directory drag your app, web, common folder directory to the packages folder. We have changed folder hierarchy, so we need to update root package.json according
