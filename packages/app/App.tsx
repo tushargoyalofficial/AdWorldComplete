@@ -13,10 +13,10 @@ const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
   return (
-    <SafeAreaView>
+    <SafeAreaView style={styles.safeContainer}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
       <View style={styles.container}>
-        <Text>Welcome to App.tsx!</Text>
+        <Text> Welcome to App.tsx!</Text>
         <Text>{sharedVariable}</Text>
       </View>
     </SafeAreaView>
@@ -24,6 +24,9 @@ const App = () => {
 };
 
 const styles = StyleSheet.create({
+  safeContainer: {
+    flex: 1,
+  },
   container: {
     flex: 1,
     justifyContent: 'center',
