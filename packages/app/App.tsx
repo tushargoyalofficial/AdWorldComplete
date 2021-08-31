@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+  Button,
   SafeAreaView,
   StatusBar,
   StyleSheet,
@@ -8,6 +9,7 @@ import {
   View,
 } from 'react-native';
 import {sharedVariable} from '@sharecode/common';
+import {onLogin} from '@sharecode/common/LoginBloc';
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -18,6 +20,7 @@ const App = () => {
       <View style={styles.container}>
         <Text> Welcome to App.tsx!</Text>
         <Text>{sharedVariable}</Text>
+        <Button title={'Login'} onPress={onLogin} />
       </View>
     </SafeAreaView>
   );

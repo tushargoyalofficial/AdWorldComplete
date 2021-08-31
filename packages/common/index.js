@@ -1,1 +1,1 @@
-export const sharedVariable = "Shared Variable";
+export const sharedVariable = "Shared Variable (packages/common)!!";

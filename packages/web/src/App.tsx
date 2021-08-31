@@ -2,6 +2,7 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import { sharedVariable } from "@sharecode/common";
+import { onLogin } from "@sharecode/common/LoginBloc";
 
 const App: React.FC = () => {
   return (
@@ -20,6 +21,7 @@ const App: React.FC = () => {
           Learn React
         </a>
         <div>{sharedVariable}</div>
+        <button onClick={onLogin}>Login</button>
       </header>
     </div>
   );
