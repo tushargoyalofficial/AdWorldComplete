@@ -1,0 +1,11 @@
+{
+  "name": "ad-world",
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": "https://github.com/tushargoyalofficial/AdWorldComplete.git",
+  "author": "Tushar Goyal <tushar462024@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
