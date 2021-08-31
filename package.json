@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "add-world",
+  "version": "1.0.0",
+  "workspaces": [
+    "app",
+    "web",
+    "common"
+  ]
+}
